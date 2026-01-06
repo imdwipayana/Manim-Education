@@ -1,0 +1,7 @@
+Run from Bash
+	manim -pql shapes.py Shapes
+
+Tell VS Code to use this virtual environment
+	1. Press Ctrl+Shift+P
+	2. Type Python: Select Interpreter
+	3. Choose Python 3.12 (.venv)
