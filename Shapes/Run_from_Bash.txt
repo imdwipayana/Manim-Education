@@ -5,3 +5,11 @@ Tell VS Code to use this virtual environment
 	1. Press Ctrl+Shift+P
 	2. Type Python: Select Interpreter
 	3. Choose Python 3.12 (.venv)
+
+| Flag                | Resolution | FPS | Use case     |
+| ------------------- | ---------- | --- | ------------ |
+| `-l`                | 480p       | 15  | Draft        |
+| `-m`                | 720p       | 30  | Medium       |
+| `-h`                | **1080p**  | 60  | High quality |
+| `-pqh`              | 1080p      | 60  | Preview + HQ |
+| `-pqh --format=mp4` | 1080p      | 60  | Best default |
