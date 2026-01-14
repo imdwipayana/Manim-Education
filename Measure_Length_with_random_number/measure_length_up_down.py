@@ -4,7 +4,7 @@ import random
 class RandomLineMeasurement(Scene):
     def construct(self):
         # Title
-        title = Text("Measuring Length\nwith Random Numbers", font_size=48, weight=BOLD, gradient=(BLUE, GREEN), line_spacing=1.2)
+        title = Text("Measuring Length \n with Random Numbers", font_size=48, weight=BOLD, gradient=(BLUE, GREEN), line_spacing=1.2)
         self.play(Write(title))
         self.play(title.animate.to_edge(UP))
         self.wait(0.5)
@@ -64,7 +64,7 @@ class RandomLineMeasurement(Scene):
         
         # Explanation
         explanation = Text(
-            "Generate random numbers between 0 and 10\nCount how many fall within the line",
+            "Generate random numbers between 0 and 10 \n Count how many fall within the line",
             font_size=28,
             line_spacing=1.2,
             color=PURPLE
